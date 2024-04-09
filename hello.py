@@ -1,2 +1,5 @@
-if 5<7 :
- print ("hey")
+x = "ko nay"
+y = "is"
+z = "sayar Gyi"
+
+print (x,y,z)
