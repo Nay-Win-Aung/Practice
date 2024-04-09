@@ -1,5 +1,7 @@
-x = "ko nay"
-y = "is"
-z = "sayar Gyi"
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
 
-print (x,y,z)
+#open and read the file after the appending:
+f = open("demofile2.txt", "r")
+print(f.read())
